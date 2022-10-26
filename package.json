@@ -1,0 +1,48 @@
+{
+   "name": "template-backend",
+   "version": "0.0.0",
+   "private": true,
+   "type": "module",
+   "description": "A template to quickly start my backend apps",
+   "main": "dist/index.js",
+   "scripts": {
+      "dev": "nodemon src/index.ts",
+      "build": "tsc -p .",
+      "test": "vitest --ui",
+      "start": "node dist/index.js"
+   },
+   "dependencies": {
+      "express": "*",
+      "mongoose": "*",
+      "bcrypt": "*",
+      "jsonwebtoken": "*",
+      "vitest": "*",
+      "dotenv": "*",
+      "config": "*",
+      "body-parser": "*"
+   },
+   "devDependencies": {
+      "@types/node": "*",
+      "@types/express": "*",
+      "@types/bcrypt": "*",
+      "@types/jsonwebtoken": "*",
+      "morgan":"*",
+      "typescript": "*",
+      "nodemon": "*",
+      "ts-node": "*",
+      "@vitest/ui": "*",
+      "@vitest/coverage-c8": "*"
+   },
+   "keywords": [
+      "expressjs",
+      "backend",
+      "nodejs",
+      "mongodb"
+   ],
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/Ikuewumi/template-backend.git"
+   },
+   "author": "Ayobami Ikuewumi",
+   "license": "MIT"
+}
